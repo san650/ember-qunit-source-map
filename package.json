@@ -1,7 +1,9 @@
 {
   "name": "ember-qunit-source-map",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Show the correct file and line number on QUnit errors (only Chrome for now)",
+  "homepage": "https://github.com/san650/ember-qunit-source-map",
+  "bugs": "https://github.com/san650/ember-qunit-source-map/issues",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +13,14 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/san650/ember-qunit-source-map.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Santiago Ferreira",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -40,10 +45,16 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "qunit",
+    "source map",
+    "stack trace",
+    "testing"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-node-assets": "^0.1.4",
+    "source-map-support": "^0.4.2"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
