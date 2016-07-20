@@ -1,26 +1,38 @@
-# Ember-qunit-source-map
+# ember-qunit-source-map
 
-This README outlines the details of collaborating on this Ember addon.
+This addon provides source map support for stack traces in QUnit via [source-map-support](https://github.com/evanw/node-source-map-support) npm package.
+
+**Note that right now the only browser supported is Chrome**
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```sh
+$ ember install ember-qunit-source-map
+```
 
-## Running
+## Development
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+### Installation
 
-## Running Tests
+```sh
+$ git clone https://github.com/san650/ember-qunit-source-map.git
+$ cd $_
+$ npm install
+$ bower install
+```
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+### Running Tests
 
-## Building
+```sh
+$ npm test
+```
 
-* `ember build`
+### Project's health
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+TBA
+
+## License
+
+ember-qunit-source-map is licensed under the MIT license.
+
+See [LICENSE](./LICENSE) for the full license text.
