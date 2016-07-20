@@ -8,7 +8,7 @@ module.exports = {
     nodeAssets: {
       "source-map-support": function() {
         return {
-          enabled: this.app.env === 'test',
+          enabled: this.app.env !== 'production',
           import: ['browser-source-map-support.js']
         };
       }
