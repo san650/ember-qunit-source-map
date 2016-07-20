@@ -1,6 +1,6 @@
 {
   "name": "ember-qunit-source-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Show the correct file and line number on QUnit errors (only Chrome for now)",
   "homepage": "https://github.com/san650/ember-qunit-source-map",
   "bugs": "https://github.com/san650/ember-qunit-source-map/issues",
