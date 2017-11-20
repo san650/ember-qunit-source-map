@@ -18,7 +18,6 @@ $ ember install ember-qunit-source-map
 $ git clone https://github.com/san650/ember-qunit-source-map.git
 $ cd $_
 $ npm install
-$ bower install
 ```
 
 ### Running Tests
